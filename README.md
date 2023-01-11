@@ -1,27 +1,17 @@
-# V2ray for Releasehub
+# V2ray for PaaS
 
-* * *
-
-# 目录
-
-- [项目特点](README.md#项目特点)
-- [部署](README.md#部署)
-- [鸣谢下列作者的文章和项目](README.md#鸣谢下列作者的文章和项目)
-- [免责声明](README.md#免责声明)
-
-* * *
-
-## 项目特点:
-* 本项目用于在 Releasehub.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/VLess + TLS。根据 Releasehub 的规定，app 启动后七天停机，需要更新部署。
-* V2ray 核心文件和配置文件作了“特殊处理”，每个项目都不同，大大降低被封和连坐风险
-* vmess 和 vless 的 uuid，路径既可以自定义，又或者使用默认值
+## 项目特点
+* 本项目用于在 Releasehub.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/Vless/Trojan + TLS
+* xray 核心文件和配置文件作了“特殊处理”，每个项目都不同，大大降低被封和连坐风险
+* vmess 和 vless 的 uuid 或 trojan 的密码，路径既可以自定义，又或者使用默认值
 * 集成哪吒探针，可以自由选择是否安装
 * 部署完成如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 或者 worker 解决。
 
-## 部署:
-* 注册 [Releasehub.com](https://app.releasehub.com/auth/login-page)
-* 绑定自己的 github 账户，严重建议小号+私库
-* 可用到的变量
+## 部署
+
+* 注册任意一家PaaS云服务商
+* 根据PaaS云服务商的不同绑定自己的 github 账户或使用项目提供的Actions生成DockerHub镜像，严重建议小号+私库
+* 项目可用到的变量
   | 变量名 | 是否必须 | 默认值 | 备注 |
   | ------------ | ------ | ------ | ------ |
   | UUID         | 否 | de04add9-5c68-8bab-950c-08cd5320df18 | 可在线生成 https://www.uuidgenerator.net/ |
@@ -43,8 +33,15 @@
 ![image](https://user-images.githubusercontent.com/92626977/211178411-c5855d14-f54f-4a0f-9f6e-754357537cb3.png)
 ![image](https://user-images.githubusercontent.com/92626977/211178451-95b03ec1-d44a-4966-af28-b2131ec55a06.png)
 
+* GitHub Actions 用到的变量
 
-## 鸣谢下列作者的文章和项目:
+|变量名|备注|
+|---|---|
+|DOCKER_USERNAME|Docker Hub 用户名|
+|DOCKER_PASSWORD|Docker Hub 密码|
+
+## 鸣谢
+
 ifeng 的 v2ray 项目，在此基础上作修改 https://www.hicairo.com https://github.com/hiifeng
 
 ## 免责声明:
