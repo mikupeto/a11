@@ -22,17 +22,6 @@
   | NEZHA_PORT   | 否 |        | 哪吒探针服务端的端口 |
   | NEZHA_KEY    | 否 |        | 哪吒探针客户端专用 Key |
 
-![image](https://user-images.githubusercontent.com/92626977/211177348-f942bdaa-2a72-4774-aed4-5f83ed8cb278.png)
-![image](https://user-images.githubusercontent.com/92626977/211177354-32feb155-f527-416d-9ded-b7acb33fb19a.png)
-![image](https://user-images.githubusercontent.com/92626977/211177362-0a0e8bc6-468f-451d-b855-490a8e6cd37b.png)
-![image](https://user-images.githubusercontent.com/92626977/211177367-7d586273-c9f9-4264-8b41-3e30b689df13.png)
-![image](https://user-images.githubusercontent.com/92626977/211177375-13dfee6c-0fb6-444c-89bf-4d85d687f006.png)
-![image](https://user-images.githubusercontent.com/92626977/211177380-6571cc31-7ccc-4d77-9dea-c042d0b84076.png)
-![image](https://user-images.githubusercontent.com/92626977/211177392-63229321-28b1-483d-95cb-36125fb16ab2.png)
-![image](https://user-images.githubusercontent.com/92626977/211178396-21748705-88e1-44f5-b6b4-9f5a07cc3867.png)
-![image](https://user-images.githubusercontent.com/92626977/211178411-c5855d14-f54f-4a0f-9f6e-754357537cb3.png)
-![image](https://user-images.githubusercontent.com/92626977/211178451-95b03ec1-d44a-4966-af28-b2131ec55a06.png)
-
 * GitHub Actions 用到的变量
 
   | 变量名 | 备注 |
