@@ -1,7 +1,7 @@
-# V2ray for PaaS
+# xray for PaaS
 
 ## 项目特点
-* 本项目用于在 Releasehub.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/Vless/Trojan + TLS
+* 本项目用于在任意一家PaaS云服务商部署xray ，采用的方案为 Nginx + WebSocket + VMess/Vless/Trojan + TLS
 * xray 核心文件和配置文件作了“特殊处理”，每个项目都不同，大大降低被封和连坐风险
 * vmess 和 vless 的 uuid 或 trojan 的密码，路径既可以自定义，又或者使用默认值
 * 集成哪吒探针，可以自由选择是否安装
@@ -35,10 +35,10 @@
 
 * GitHub Actions 用到的变量
 
-|变量名|备注|
-|---|---|
-|DOCKER_USERNAME|Docker Hub 用户名|
-|DOCKER_PASSWORD|Docker Hub 密码|
+  | 变量名 | 备注 |
+  | ------------- | -------------- |
+  |DOCKER_USERNAME|Docker Hub 用户名|
+  |DOCKER_PASSWORD|Docker Hub 密码|
 
 ![image](https://user-images.githubusercontent.com/116990986/211692321-34df154a-320a-448f-9abe-2efab9c53550.png)
 
