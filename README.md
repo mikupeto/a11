@@ -40,6 +40,8 @@
 |DOCKER_USERNAME|Docker Hub 用户名|
 |DOCKER_PASSWORD|Docker Hub 密码|
 
+![image](https://user-images.githubusercontent.com/116990986/211692321-34df154a-320a-448f-9abe-2efab9c53550.png)
+
 ## 鸣谢
 
 ifeng 的 v2ray 项目，在此基础上作修改 https://www.hicairo.com https://github.com/hiifeng
