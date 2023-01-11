@@ -8,9 +8,9 @@ COPY config.json ./
 COPY entrypoint.sh ./
 
 RUN apt-get update && apt-get install -y wget unzip iproute2 systemctl &&\
-    wget -O temp.zip https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip &&\
-    unzip temp.zip v2ray v2ctl geoip.dat geosite.dat &&\
+    wget -O temp.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip &&\
+    unzip temp.zip xray geoip.dat geosite.dat &&\
     rm -f temp.zip &&\
-    chmod -v 755 v2ray v2ctl entrypoint.sh
+    chmod -v 755 xray entrypoint.sh
 
 ENTRYPOINT [ "./entrypoint.sh" ]
