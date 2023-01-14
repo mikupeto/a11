@@ -12,7 +12,7 @@ sed -i "s#RELEASE_RANDOMNESS#${RELEASE_RANDOMNESS}#g" /etc/supervisor/conf.d/sup
 
 # 设置 nginx 伪装站
 rm -rf /usr/share/nginx/*
-wget -c -P /usr/share/nginx "https://github.com/mikupeto/a11/raw/master/mikutap.zip"
+wget -c -P /usr/share/nginx "https://github.com/AYJCSGM/mikutap/archive/master.zip"
 unzip -o "/usr/share/nginx/mikutap.zip" -d /usr/share/nginx/html
 rm -f /usr/share/nginx/mikutap.zip
 
